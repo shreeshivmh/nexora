@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Hemlata Uday Fashion Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <h1>Hemlata Uday Fashion Design</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contacts.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="contact">
+    <h2>Contact Us</h2>
+
+    <div class="contact-box">
+        <h3>Business Details</h3>
+
+        <p><strong>Owner:</strong> Hemlata Uday</p>
+
+        <p><strong>Phone:</strong> +91 7568963923</p>
+
+        <p><strong>Address:</strong> Bus Stand, Arain, Rajasthan, India</p>
+    </div>
+
+    <h3>Send Us a Message</h3>
+
+    <form id="contactForm">
+        <input type="text" placeholder="Your Name" required>
+
+        <input type="email" placeholder="Your Email" required>
+
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Hemlata Uday Fashion Design. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
